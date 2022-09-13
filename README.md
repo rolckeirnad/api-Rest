@@ -1,43 +1,13 @@
 # Webpack template
+Este fue un proyecto pequeño para crear un API REST.
 
-This template was created with the following dependencies
-- webpack
-- webpack-cli
-- webpack-dev-server
-- webpack-merge
-- css-loader
-- style-loader
-- html-webpack-plugin
-- mini-css-extract-plugin
-
-```
-npm install --save-dev webpack webpack-cli webpack-dev-server webpack-merge css-loader style-loader html-webpack-plugin mini-css-extract-plugin
+La API esta alojada con express y retorna un arreglo de 3 elementos:
+``` json
+[
+  {"id":"0000","name":"Daniel","age":30},
+  {"id":"0001","name":"Juan","age":20},
+  {"id":"0002","name":"Joaquin","age":0}
+]
 ```
 
-The webpack configuration files were separated into common, dev and production files to allow separate configurations for development and production.
-
-In `package.json` were added the following scripts:
-```javascript
-"scripts": {
-    /* ... Some default scripts ... */
-    "start": "webpack serve --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
-  },
-```
-# Usage
-
-Install dependencies:
-```
-npm install
-```
-
-To run a live server use the following command:
-```
-npm start
-```
-> *If you make changes in webpack configuration files you'll need to restart live server
-
-To build production files:
-```
-npm run build
-```
+El front end puede personalizarse dependiendo como se requiere la visualización de los datos, para la parte práctica así es como se verían los datos despues de iterar en la respuesta del API:
