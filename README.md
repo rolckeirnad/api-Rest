@@ -11,3 +11,4 @@ La API esta alojada con express y retorna un arreglo de 3 elementos:
 ```
 
 El front end puede personalizarse dependiendo como se requiere la visualización de los datos, para la parte práctica así es como se verían los datos despues de iterar en la respuesta del API:
+![Final view](https://github.com/rolckeirnad/api-Rest/blob/main/src/pantalla_2022-09-12_22-58-34.png?raw=true)
