@@ -1,4 +1,4 @@
-# Webpack template
+# API REST
 Este fue un proyecto pequeño para crear un API REST.
 
 La API esta alojada con express y retorna un arreglo de 3 elementos:
